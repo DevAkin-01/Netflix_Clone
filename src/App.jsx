@@ -6,6 +6,7 @@ import Pics from "./assets/Components/Pics"
 import Images from './assets/Components/Images'
 import Faq from "./assets/Components/Faq"
 import Footer from "./assets/Components/Footer"
+import FooterInput from './assets/Components/FooterInput'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Pics/>
     <Images/>
     <Faq/>
+    <FooterInput/>
     <Footer/>
     </>
   )

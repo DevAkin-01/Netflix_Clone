@@ -3,7 +3,7 @@ import Btn from "./Btn.jsx"
 import React from 'react'
 import { MdOutlineChevronRight } from "react-icons/md"
 
-function Header() {
+function Hero() {
   return (
     <div>
       <sectionn className="parent_container">
@@ -19,9 +19,9 @@ function Header() {
                 <p className="text2">Starts at ₦2,500. Cancel anytime.</p>
                 <p className="text3">Ready to watch? Enter your email to create or restart your <br /> membership.</p>
                 <form className="input_parent" action="">
-                    <input className="input" type="text" />
+                    <input className="input" placeholder="Email Address" type="text" />
                     <Btn style={{width:"30%",borderRadius:"none",
-                        height:"7vh", border:"none"}} className="btn_1" text="Get Started" icon={MdOutlineChevronRight}/>
+                        height:"7vh", border:"none",cursor:"pointer"}} className="btn_1" text="Get Started" icon={MdOutlineChevronRight}/>
                 </form>
             </span>
          </div>
@@ -30,4 +30,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Hero

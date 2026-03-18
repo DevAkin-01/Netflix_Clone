@@ -39,6 +39,7 @@
     background-color: red;
     color: white;
     border: none;
+    cursor: pointer;
 }
 .text_container{
     /* background: #ff0000; */
@@ -83,8 +84,11 @@
     width: 50%;
     gap: 10px;
 
+
     .input{
         width: 70%;
         height: 7vh;
+        background-color: rgb(39, 38, 38);
+        border: 1px solid whitesmoke;
     }
 }

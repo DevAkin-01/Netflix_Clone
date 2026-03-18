@@ -9,7 +9,7 @@ const footerLinks = [
     id: 2,
     links: ["Help Center", "Jobs", "Cookie Preferences", "Legal Notices"]
   },
-  {
+  { 
     id: 3,
     links: ["Account", "Ways to Watch", "Corporate Information", "Only on Netflix"]
   },
